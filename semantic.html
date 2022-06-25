@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic html</title>
+  </head>
+  <body>
+    <header>
+      <!--header & footer muncul diawal & akhir body -->
+      <h1>Bandung</h1>
+      <p>
+        Kota metropolitan terbesar di Provinsi Jawa Barat, sekaligus menjadi ibu
+        kota provinsi tersebut.
+      </p>
+      <nav>
+        <!--nav = menampung navigasi penting seperti nav utama-->
+        <ul>
+          <li><a target="_parent" href="#sejarah">Sejarah</a></li>
+          <li><a target="_top" href="#geografis">Geografis</a></li>
+          <li><a target="_self" href="#Wisata">Wisata</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <article>
+          <!--article = konten utuh yang tidak terkait dengan konten lain-->
+          <p>Ini adalah artikel</p>
+        </article>
+      </section>
+      <article>
+        <p>artikel yang baru lagi nih</p>
+      </article>
+      <aside>
+        <article>
+          <header>
+            <h2>Kota Bandung</h2>
+            <p>Kota Kembang Paris van Java</p>
+            <figure>
+              <img src="img/bandung-badge.png" />
+              <figcaption>Lambang</figcaption>
+            </figure>
+          </header>
+        </article>
+      </aside>
+      <br />
+      <!--Figure = mengelompokan blok konten yang dipindahkan posisinya dari blok utama -->
+      <figure>
+        <img
+          src="https://github.com/dicodingacademy/BelajarDasarPemrogramanWeb/raw/image-assets/dicoding-logo.png"
+          alt="Sicoding Logo"
+          width="200px"
+        />
+        <figcaption>Dicoding</figcaption>
+        <!--figcaption = sebuah caption untuk konten.-->
+      </figure>
+      <br />
+      <figure>
+        <pre> <!--Pretext = menampilkan konten sesuai kita tulis -->
+      SAJAK PUTIH
+    
+   Bersandar pada tari warna pelangi Kau depanku bertudung sutra senja
+   Di hitam matamu kembang mawar dan melati
+   Harum rambutmu mengalun bergelut senda
+    
+   <strong>menyanyi, malam dalam mendoa tiba</strong> 
+   <q>Meriak muka air kolam jiwa</q>
+   Dan dalam dadaku memerdu lagu
+   Menarik menari seluruh aku
+    
+   Hidup dari hidupku, pintu terbuka
+   Selama matamu bagiku menengadah
+   Selama kau darah mengalir dari luka
+   Antara kita Mati datang tidak membelah...
+    
+                      Karya : Chairil Anwar
+   </pre>
+      </figure>
+      <ol>
+        <li><a href="https://google.com">Mesin Pencari</a></li>
+        <li><a href="https://dicoding.com">Ngoding</a></li>
+        <li>
+          <a target="_blank" href="https://github.com">gambar</a>
+        </li>
+        <li>
+          <a media="media_type" href="https://github.com">gambar</a>
+        </li>
+        <li>
+          <dfn>selengkapnya di </dfn
+          ><cite><a href="https://github.com">github</a></cite>
+        </li>
+      </ol>
+      <blockquote cite="https://id.wikipedia.org/wiki/Situs_web">
+        <p>
+          Situs web (bahasa Inggris: website) adalah sekumpulan halaman web yang
+          saling berhubungan yang umumnya berada pada peladen yang sama
+          berisikan kumpulan informasi yang disediakan secara perorangan,
+          kelompok, atau organisasi.
+        </p>
+      </blockquote>
+      <br />
+    </main>
+    <!--header = pengantar konten dalam sebuah article atau section -->
+    <!--footer = catatan kaki pada article atau section -->
+    <footer>
+      <p>bagikan artikel ini melalui</p>
+      <ul>
+        <li>Twitter</li>
+        <li>Facebook</li>
+      </ul>
+    </footer>
+  </body>
+</html>
